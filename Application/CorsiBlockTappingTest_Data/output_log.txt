@@ -1,0 +1,66 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   26.21.14.3086
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.017 seconds
+Platform assembly: D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Jiayan\GitHub\CorsiTask\Application\CorsiBlockTappingTest_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1200 59Hz; virtual: 5760x1201 at -1920,-1
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.996500 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 1664 -> priority: 1 
+  Thread -> id: 2cf8 -> priority: 1 
+  Thread -> id: 36ec -> priority: 1 
+  Thread -> id: 4d50 -> priority: 1 
+  Thread -> id: 934 -> priority: 1 
+  Thread -> id: 2f58 -> priority: 1 
+Is True?True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Is True?False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+chance = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Is True?True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Is True?False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+chance = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Is True?False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+chance = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
