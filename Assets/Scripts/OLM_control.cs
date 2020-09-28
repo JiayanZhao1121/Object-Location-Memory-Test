@@ -29,6 +29,9 @@ public class OLM_control : MonoBehaviour
 
     private float StartTrialTime = 0f;
     private float endTrialTime = 0f;
+    public Text ParticipantText;
+    private int isInFullScreen = 0;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -79,12 +82,23 @@ public class OLM_control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Screen.fullScreen && isInFullScreen == 0)
+        {
+            transform.Find("InitialPage").gameObject.SetActive(false);
+            transform.Find("StartPage").gameObject.SetActive(true);
+            isInFullScreen++;
+        }
+
     }
     public void FromStartPageToTraining1()
     {
-        transform.Find("StartPage").gameObject.SetActive(false);
-        transform.Find("Training1").gameObject.SetActive(true);
+        if (ParticipantText.text.Length == 8)
+        {
+            PlayerPrefs.SetString("participant ID", ParticipantText.text);
+            transform.Find("StartPage").gameObject.SetActive(false);
+            transform.Find("Training1").gameObject.SetActive(true);
+        }
+   
     }
     public void FromTraining1ToTraining2()
     {
