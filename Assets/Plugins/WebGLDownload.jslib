@@ -6,7 +6,7 @@ mergeInto(LibraryManager.library, {
 	var categoryNameJS = Pointer_stringify(categoryName);
 	var fileNameJS = Pointer_stringify(fileName);
 
-	var desertRef = firebase.storage().ref('ReferenceFrameFall2020/' + categoryNameJS + '/' + fileNameJS + '.txt');
+	var desertRef = firebase.storage().ref('SpatialAbilityTests/' + categoryNameJS + '/' + fileNameJS + '.txt');
 
 desertRef.putString(url, 'data_url').then(function(snapshot) {
   console.log('Uploaded a data_url string!');
